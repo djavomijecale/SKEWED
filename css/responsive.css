@@ -40,6 +40,9 @@
 .hello:after{height: 150px}
 .custom-padding{padding: 100px 0}
 .about h2{color: #222;font-family:'PT Sans';font-size: 60px; }
+.section-title{font-weight: 100;font-size: 60px;}
+.pseudo{padding: 200px 0;}
+.video:before,video:after{height: 150px;}
 
 
 
