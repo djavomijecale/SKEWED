@@ -38,7 +38,8 @@
 .navbar-nav li a{padding: 8px 15px}
 .hello{padding: 300px 0}
 .hello:after{height: 150px}
-.custom-padding{padding: }
+.custom-padding{padding: 100px 0}
+.about h2{color: #222;font-family:'PT Sans';font-size: 60px; }
 
 
 
