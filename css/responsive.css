@@ -21,6 +21,7 @@
     .navbar-brand{max-width:  130px;}
     
     .navbar-nav li a.nav-link{text-transform: uppercase;color:#b1b1b1 !important;font-family: 'PT Sans'}
+    .hello h2{font-family:'PT Sans';font-size: 60px !important; }
     
     
 }
@@ -35,14 +36,16 @@
       .navbar-brand{max-width: 250px;}
 }
 .navbar-nav li a{padding: 8px 15px}
-
+.hello{padding: 300px 0}
+.hello:after{height: 150px}
+.custom-padding{padding: }
 
 
 
 
 @media(min-width:1200px){
     
-    
+    .hello h2{font-size: 82px !important; }
     
     
     
