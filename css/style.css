@@ -29,3 +29,10 @@ a{text-decoration: none;}
 .video-wrapper{max-width: 800px;margin: auto;}
 .video:before{content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100px;background: url(assets/top-left.png) no-repeat center center;background-size: 100% 100%;display: block;}
 .video:after{content: '';position: absolute;bottom: 0;left: 0;width: 100%;height: 100px;background: url(assets/bottom-right.png) no-repeat center center;background-size: 100% 100%;display: block;}
+.team figure{width: 220px;height: 220px;border-radius: 50%;overflow: hidden;margin: 0 auto 1rem;}
+.team figure .hover{position: absolute;top:0;left: 0;width: 100%;height: 100%;background: #F7CC4B;display: none;}
+.team .hover nav{position: relative;top: 50%;transform: translateY(-50%);text-align: center}
+.team .hover nav .fa{width: 48px;height: 48px;line-height: 48px;font-size: 30px;color: white;border: 1px solid white;border-radius: 50%;margin: 0 5px;}
+.team .hover nav .fa:hover{background: #fff;color: #F7CC4B}
+.team figure:hover .hover{display: block !important;}
+.team .team-title{}
